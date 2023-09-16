@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800;
+    @apply tracking-normal;
+    @apply text-base;
+  }
+
+  h1 {
+    @apply font-bold;
+    @apply tracking-tight;
+    @apply text-gray-900;
+  }
+
+  h2 {
+    @apply font-bold;
+    @apply tracking-normal;
+    @apply text-gray-800;
+  }
+}
